@@ -1,0 +1,87 @@
+/*
+Theme Name: Crypto Trading
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: The Astra WordPress theme is lightning-fast and highly customizable. It has over 1 million downloads and the only theme in the world with 5,700+ five-star reviews! It’s ideal for professional web designers, solopreneurs, small businesses, eCommerce, membership sites and any type of website. It offers special features and templates so it works perfectly with all page builders like Spectra, Elementor, Beaver Builder, etc. Fast performance, clean code, mobile-first design and schema markup are all built-in, making the theme exceptionally SEO-friendly. It’s fully compatible with WooCommerce, SureCart and other eCommerce plugins and comes with lots of store-friendly features and templates. Astra also provides expert support for free users. A dedicated team of fully trained WordPress experts are on hand to help with every aspect of the theme. Try the live demo of Astra: https://zipwp.org/themes/astra/
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.11.10.1756765132
+Updated: 2025-09-01 22:18:52
+
+*/
+
+@media (min-width: 922px) {
+  .site-content .ast-container {
+    display: block !important;
+  }
+}
+
+/* Crypto Trading Dashboard Styles */
+.trend-history {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #495057;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  border-left: 3px solid #007bff;
+}
+
+.trend-history strong {
+  color: #333;
+  margin-right: 6px;
+}
+
+.timeframe-trends {
+  background: rgba(248, 249, 250, 0.9);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border-left: 3px solid #6c757d;
+  font-family: 'Courier New', monospace;
+}
+
+.timeframe-trends div {
+  white-space: nowrap;
+}
+
+.growth-badge {
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.tf-sort-btn {
+  transition: all 0.3s ease;
+}
+
+.tf-sort-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.coin-accordion .accordion-header {
+  transition: all 0.3s ease;
+}
+
+.coin-accordion .accordion-header:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#coin-search {
+  transition: all 0.3s ease;
+}
+
+#coin-search:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+  outline: none;
+}
